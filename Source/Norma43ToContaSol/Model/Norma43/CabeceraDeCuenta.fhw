@@ -1,0 +1,18 @@
+<FixedLengthClass FixedMode="ExactLength">
+    <ClassName>CabeceraDeCuenta</ClassName>
+    <SealedClass />
+    <Fields>
+        <Field Name="CodigoRegistro" Type="Int32" Length="2" />
+        <Field Name="ClaveEntidad" Type="Int32" Length="4" />
+        <Field Name="ClaveOficina" Type="Int32" Length="4" />
+        <Field Name="NumCuenta" Type="Decimal" Length="10" />
+        <Field Name="FechaInicial" Type="DateTime" Length="6" />
+        <Field Name="FechaFinal" Type="DateTime" Length="6" />
+        <Field Name="ClaveDebeHaber" Type="Int32" Length="1" />
+        <Field Name="ImporteSaldoInicial" Type="Decimal" Length="14" />
+        <Field Name="ClaveDivisa" Type="Int32" Length="3" />
+        <Field Name="ModalidadInformacion" Type="Int32" Length="1" />
+        <Field Name="NombreAbreviado" Type="String" Length="26" />
+        <Field Name="Libre1" Type="String" Length="3" />
+    </Fields>
+</FixedLengthClass>

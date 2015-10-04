@@ -1,0 +1,10 @@
+<FixedLengthClass FixedMode="ExactLength">
+    <ClassName>ComplementariosConcepto</ClassName>
+    <SealedClass />
+    <Fields>
+        <Field Name="CodigoRegistro" Type="Int32" Length="2" />
+        <Field Name="CodigoDato" Type="Int32" Length="2" />
+        <Field Name="Concepto1" Type="Int32" Length="38" />
+        <Field Name="Concepto2" Type="Int32" Length="38" />
+    </Fields>
+</FixedLengthClass>

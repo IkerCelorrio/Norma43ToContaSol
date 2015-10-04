@@ -1,0 +1,18 @@
+<FixedLengthClass FixedMode="ExactLength">
+    <ClassName>RegistroFinalCuenta</ClassName>
+    <SealedClass />
+    <Fields>
+        <Field Name="CodigoRegistro" Type="Int32" Length="2" />
+        <Field Name="ClaveEntidad" Type="Int32" Length="4" />
+        <Field Name="ClaveOficina" Type="Int32" Length="4" />
+        <Field Name="NumCuenta" Type="Decimal" Length="10" />
+        <Field Name="NumApuntesDebe" Type="Int32" Length="5" />
+        <Field Name="TotalImportesDebe" Type="Decimal" Length="14" />
+        <Field Name="NumApuntesHaber" Type="Int32" Length="1" />
+        <Field Name="TotalImportesHaber" Type="Decimal" Length="14" />
+        <Field Name="CodigoSaldoFinal" Type="Int32" Length="4" />
+        <Field Name="SaldoFinal" Type="Decimal" Length="14" />
+        <Field Name="ClaveDivisa" Type="Int32" Length="3" />
+        <Field Name="Libre1" Type="String" Length="4" />
+    </Fields>
+</FixedLengthClass>

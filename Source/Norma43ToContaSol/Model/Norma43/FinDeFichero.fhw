@@ -1,0 +1,10 @@
+<FixedLengthClass FixedMode="ExactLength">
+    <ClassName>FinDeFichero</ClassName>
+    <SealedClass />
+    <Fields>
+        <Field Name="CodigoRegistro" Type="Int32" Length="2" />
+        <Field Name="Nueves" Type="Decimal" Length="18" />
+        <Field Name="NumRegistros" Type="Int32" Length="6" />
+        <Field Name="Libre" Type="String" Length="54" />
+    </Fields>
+</FixedLengthClass>
